@@ -11,8 +11,8 @@
 	antag_indicator = "hudhunter"
 	hard_cap = 10
 	hard_cap_round = 10
-	initial_spawn_req = 4
-	initial_spawn_target = 6
+	initial_spawn_req = 1
+	initial_spawn_target = 3
 	rig_type = /obj/item/rig/mantid
 
 /decl/special_role/hunter/update_antag_mob(var/datum/mind/player, var/preserve_appearance)
