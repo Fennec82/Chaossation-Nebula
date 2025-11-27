@@ -1,6 +1,6 @@
 /datum/appearance_descriptor/age/kharmaani
-	chargen_min_index = 3
-	chargen_max_index = 6
+	chargen_min_index = 6
+	chargen_max_index = 8
 	standalone_value_descriptors = list(
 		"a larva" =         1,
 		"a nymph" =         2,
@@ -25,8 +25,8 @@
 
 /decl/species/mantid
 	uid =                    "species_mantid_alate"
-	name =                   "Kharmaan Alate"
-	name_plural =            "Kharmaan Alates"
+	name =                   "Kharmaani Alate"
+	name_plural =            "Kharmaani Alates"
 	show_ssd =               "quiescent"
 	hidden_from_codex =      TRUE
 
@@ -69,7 +69,7 @@
 	available_pronouns = list(/decl/pronouns/male)
 
 	species_flags =           SPECIES_FLAG_NO_SLIP | SPECIES_FLAG_NO_MINOR_CUT
-	spawn_flags =             SPECIES_IS_RESTRICTED
+	spawn_flags =             SPECIES_CAN_JOIN | SPECIES_IS_WHITELISTED
 
 	force_background_info = list(
 		/decl/background_category/citizenship = /decl/background_detail/citizenship/other,
@@ -93,8 +93,8 @@
 
 /decl/species/mantid/gyne
 	uid =         "species_mantid_gyne"
-	name =        "Kharmaan Gyne"
-	name_plural = "Kharmaan Gynes"
+	name =        "Kharmaani Gyne"
+	name_plural = "Kharmaani Gynes"
 
 	available_bodytypes = list(/decl/bodytype/crystalline/mantid/gyne)
 	available_pronouns = list(/decl/pronouns/female)
